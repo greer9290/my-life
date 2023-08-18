@@ -1,0 +1,6 @@
+User interface Access
+Read and Reset errors
+Parameter Sheet that can match pulse rate to scan speed for certain overlaps and provide linear travel speeds depending on optic and laser
+Guides for easy maintenance
+Call or text features
+Focus finder using sound for optimal focus
