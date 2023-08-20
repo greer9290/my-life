@@ -1,12 +1,21 @@
-08/18/2023
-Day Recap
--Worked a bit with David on wiring the AL1, he got to learn how to use the label maker
--Had pizza with the family at the office in KC, good times!
--
--Starting the Odin Project to teach myself full stack web dev.
+08/19/2023
 
-Some project ideas as things progress:
--Project 1: Develop Jacob's website for Machining services
--Project 2: FamilyShare App
--Project 3: HomeAssistant Project to learn APIs
--Project 4: Adapt Laser App
+It was a fairly eventful Saturday.
+
+We started the day with the catechism, was too tired to work out this morning.
+
+Got some more web dev tutorials done, mainly just setting up a dev environment. On that note decided to go with dual boot Ubuntu after messing with a few virtual machines over the course of today. The VM setup was too sluggish for my needs. A 1TB NVMe with Ubuntu 22.04 is the next step there.
+
+Ran a few errands with Phillip in the morning, looking for a tent for next week's PA work trip. Ended up going with Amazon. Academy doesn't carry any single person tents or bivy bags.. couldn't find any other store close enough that would either.
+
+Moriah met up with our old friend Gwen from KC.
+
+We made some burgers.
+
+Jemma officially crawled for the first time!
+
+After getting this dual boot setup, I'll be done for the day.
+
+9:34PM
+Signing out,
+Ben

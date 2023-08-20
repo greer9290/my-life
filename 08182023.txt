@@ -1,18 +1,12 @@
-Today I am starting the hopeful life pattern of cataloging the past days events, current days plans and miscellania of life.
+08/18/2023
+Day Recap
+-Worked a bit with David on wiring the AL1, he got to learn how to use the label maker
+-Had pizza with the family at the office in KC, good times!
+-
+-Starting the Odin Project to teach myself full stack web dev.
 
-08/18/2023 Friday
-Yesterday was a rough day, woke up sick and achey (sp?). Powered through and showed up at the KC HQ of Adapt Laser.
-
-We have been listening to the Westminster Shorter Catechism by Brian Sauve as a family in the mornings. Q1-10 currently. The plan is to walk through those questions once a day for a month.
-
-I've been wiring up the electrical panel and fine-tuning the Arduino program for the second desktop laser cleaning station we are building at Adapt.
-Also started to help out with a Fanuc + cleanLASER + Luna Terahertz sensor integration project.
-
-Of course, answered many customer requests and got a shipment of maintenance materials out the door for a project in Pennsylvania next week.
-
-Not looking forward to it, but I'll probably be on the road Monday-Friday next week knocking out 2 customer issues.
-
-Goals today:
--Continue Git course on Udemy
--Finish on-panel wiring for AL1
--Begin resolution process for Luna project
+Some project ideas as things progress:
+-Project 1: Develop Jacob's website for Machining services
+-Project 2: FamilyShare App
+-Project 3: HomeAssistant Project to learn APIs
+-Project 4: Adapt Laser App
