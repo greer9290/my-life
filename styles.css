@@ -11,5 +11,24 @@ p{
 
 h1{
     color: teal;
-    background-color: tan;
+}
+
+.homebutton {
+    color: white;
+    background-color: teal;
+    font-size: 30px;
+}
+
+.journalb {
+    color: white;
+    background-color: teal;
+    font-size: 30px;
+    padding-bottom: 3px;
+    scroll-padding-bottom: 10px;
+    margin: 10px;
+}
+
+.buttona {
+    color: white;
+    text-decoration: none;
 }
