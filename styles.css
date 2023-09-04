@@ -6,7 +6,11 @@ div {
 }
 
 p{
-    color: red;
+    color: black;
+    font-size: 25px;
+    line-break: auto;
+    display: inline-block;
+    overflow-wrap: normal;
 }
 
 h1{
