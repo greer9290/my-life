@@ -1,4 +1,4 @@
-# myLife
+# my-life
 
 Basically a journal.
 
