@@ -1,5 +1,6 @@
 /* styles.css */
 * {
+    border: red solid 2px;
 }
 
 div {
@@ -22,9 +23,60 @@ h1{
     display: inline-flex;
 }
 
+.header-container {
+    display: flex;
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+    flex-direction: column;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid #fff;  /* For debugging */
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.links {
+    /* border: 1px solid #fff;  For debugging */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    justify-content: stretch;
+    align-items: right;
+    flex: initial;
+    flex-direction: row;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    justify-content: flex-end;
+    align-items:end;
+    min-width: 50px;
+}
+
 .homelist-btn {
-    font-size: 50px;
-    width: 75%;
+    font-size: 20px;
+    width: 80px;
     margin: 20px;
     padding: 20px;
     background-color: #185a9d;
@@ -32,7 +84,7 @@ h1{
     color: #cfcfcf;
     text-align: center;
     margin-bottom: 10px;
-    display: inline-block;
+    display: flex;
 }
 
 .homepage{
@@ -40,7 +92,7 @@ h1{
     background-size: auto;
 }
 
-.normalpage{
+.subpage{
     background: linear-gradient(to right, #1b216b, #185a9d, #1b216b, #185a9d, #1b216b);
     background-size: 600% 100%;
     animation: easeBG 100s ease infinite;
@@ -68,19 +120,7 @@ h1{
   100% { background-position:120% 0 }
 }   
 
-.buttonr-float {
-    background: linear-gradient(to right, #1b216b, #185a9d, #1b216b, #185a9d, #1b216b);
-    background-size: 600% 100%;
-    animation: easeBG 90s ease infinite;
-    overflow: hidden;
-    font-size: 35px;
-    display: block;
-    padding: 10px;
-    margin: 5px;
-    color: wheat;
-}
-
-.buttona {
+.journal-btn {
     color: white;
     text-decoration: none;
     background-color: navy;
@@ -88,16 +128,16 @@ h1{
     padding: 10px;
     margin: 5px;
     display: block;
-    animation: buttonA-anim 90s ease infinite;
+    animation: journal-btn-anim 90s ease infinite;
 }
 
-@keyframes buttonA-anim {
+@keyframes journal-btn-anim {
     10% {background-color: navy;}
     50% {background-color: cornflowerblue;}
     90% {background-color: navy;}
   }
 
-.buttonr {
+.home-btn-float {
     color: black;
     font-size: 25px;
     background-color: wheat;
