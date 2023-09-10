@@ -129,20 +129,24 @@ iframe {
 }
 
 .homelist-btn {
+    display: flex;
     font-size: auto;
     width: 100px;
     margin: 0px;
     padding: 5px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
     padding-top: 15px;
     height: 25px;
     background-color: #185a9d;
     text-decoration: none;
     color: #cfcfcf;
     margin-bottom: 10px;
-    display: flex;
-    justify-content:left;
+    justify-content:flex-end;
     align-self: center;
+    border-radius: 10px;
+    font-weight: 750;
+    flex-wrap: wrap;
 }
 
 .icon-btn {
@@ -152,6 +156,7 @@ iframe {
     margin-top: 0px;
     padding: 1px;
     height: 20px;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
@@ -190,30 +195,16 @@ iframe {
 .journal-btn {
     color: white;
     text-decoration: none;
-    background-color: navy;
+    background-color: #496800;
     font-size: 30px;
     padding: 10px;
     margin: 5px;
     display: block;
-    animation: journal-btn-anim 90s ease infinite;
+    animation: journal-btn-anim 10s ease infinite;
 }
 
 @keyframes journal-btn-anim {
-    10% {background-color: navy;}
-    50% {background-color: cornflowerblue;}
-    90% {background-color: navy;}
+    10% {background-color: #496800;}
+    50% {background-color: #496890;}
+    90% {background-color: #496800;}
   }
-
-.home-btn-float {
-    color: black;
-    font-size: 25px;
-    background-color: wheat;
-    text-decoration: none;
-    padding: 5px;
-    text-align: center;
-    position: fixed;
-    bottom: 10px;
-    right: 1%;
-    font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
