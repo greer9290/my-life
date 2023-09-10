@@ -1,5 +1,6 @@
 /* styles.css */
 * {
+    border: 1px solid red;
 }
 
 html, body {
@@ -105,6 +106,7 @@ iframe {
     height: 100%;
     flex-direction: column-reverse;
     overflow: hidden;
+    padding: 0px;
 }
 
 .content {
@@ -252,6 +254,10 @@ iframe {
     flex-direction: row;
     justify-content: right;
     width: 85%;
+    padding: 10px;
+    padding-bottom: 50px;
+    overflow-y: auto;
+    margin-top: 50px;
 }
 
 .footer-container {
