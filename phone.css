@@ -1,6 +1,6 @@
-/* styles.css */
+/* phone.css */
 * {
-    border: 1px solid red;
+    border: 3px solid green;
 }
 
 html, body {
@@ -137,12 +137,12 @@ iframe {
 
 .homelist-btn {
     display: flex;
-    font-size:15px;
-    margin: 5px;
-    padding: 5px;
+    font-size:30px;
+    margin: 10px;
+    padding: 10px;
     padding-right: 20px;
     padding-top: 15px;
-    height: 25px;
+    height: 50px;
     background-color: #185a9d;
     text-decoration: none;
     color: #cfcfcf;
