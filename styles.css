@@ -1,23 +1,24 @@
 /* styles.css */
 * {
-    /*border: red solid 1px;*/
+}
+
+html, body {
+    height: 100%;
 }
 
 html {
     display: flex;
     width: 100%;
-    height: 100%;
     background-color: black;
     margin: 0px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
+    padding: 10px;
+    margin: 10px;
     width: 100%;
 }
 
@@ -36,8 +37,9 @@ p{
     color: white;
     font-size: 20px;
     line-break: auto;
-    display: inline-block;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -110,12 +112,13 @@ iframe {
     justify-content: space-between;
     align-items: start;
     flex-direction: column;
-    width: 99%;
-    height: 99%;
-    overscroll-behavior-y:contain;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     border: 0px;
+    padding: 0px;
+    margin: 0px;
+    flex-grow: 1;
 }
 
 .btn-container {
@@ -164,13 +167,6 @@ iframe {
     background-color: black;
 }
 
-.subpage{
-    background: linear-gradient(to right, #1b216b, #185a9d, #1b216b, #185a9d, #1b216b);
-    background-size: 600% 100%;
-    animation: easeBG 100s ease infinite;
-    overflow: hidden;
-}
-
 @keyframes easeBG {
   0% { background-position:0 0 }
   2.5% {background-position:4% 0}
@@ -195,16 +191,124 @@ iframe {
 .journal-btn {
     color: white;
     text-decoration: none;
-    background-color: #496800;
+    background-color: #38506e;
     font-size: 30px;
     padding: 10px;
     margin: 5px;
-    display: block;
-    animation: journal-btn-anim 10s ease infinite;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    border-radius: 20px;
 }
 
-@keyframes journal-btn-anim {
-    10% {background-color: #496800;}
-    50% {background-color: #496890;}
-    90% {background-color: #496800;}
-  }
+.subpage{
+    background: linear-gradient(to right, #1b216b, #185a9d, #1b216b, #185a9d, #1b216b);
+    animation: easeBG 100s ease infinite;
+    background-size: 600% 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 82%;
+    padding: 50px;
+    overflow: hidden;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.subpage-row{
+    background: linear-gradient(to right, #1b216b, #185a9d, #1b216b, #185a9d, #1b216b);
+    animation: easeBG 100s ease infinite;
+    background-size: 600% 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 82%;
+    padding: 50px;
+    overflow: hidden;
+    overflow-y: auto;
+    flex-direction: row;
+}
+
+.journal-hdr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: row;
+    width: 40px;
+    min-width: 40px;
+    text-orientation:sideways;
+    writing-mode: vertical-lr;
+    padding: 20px;
+    padding-left: 25px;
+    text-align: center;
+    background-color: #38506e;
+    border-radius: 20px;
+    height: 150px;
+}
+
+.formatted-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 85%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+    font-size: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 150px;
+    height: 210px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+#moriah-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35px;
+    border-radius: 10px;
+}
+
+
+.a-link {
+    color: white;
+    background-color: #5995DA;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: row;
+    font-size: 30px;
+    width: 175px;
+    height: 50px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 150px;
+    border-radius: 20px;
+    font-weight: 900;
+    justify-content: space-between;
+    align-items: center;   
+}
