@@ -337,6 +337,7 @@ iframe {
 
     html, body {
         height: 100%;
+        overflow: auto;
     }
     
     html {
@@ -344,7 +345,7 @@ iframe {
         width: 100%;
         background-color: black;
         margin: 0px;
-        overflow: hidden;
+        overflow: auto;
     }
     
     body {
@@ -353,6 +354,7 @@ iframe {
         padding: 10px;
         margin: 10px;
         width: 100%;
+        overflow: auto;
     }
     
     div {
