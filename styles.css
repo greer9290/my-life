@@ -333,6 +333,7 @@ iframe {
 
 @media (max-width: 600px) {
     *{
+        overflow: auto;
     }
 
     html, body {
@@ -366,7 +367,7 @@ iframe {
         color: white;
         background-color: black;
         padding: 0px;
-        overflow-y: auto;
+        overflow: auto;
     }
     
     p{
@@ -376,7 +377,7 @@ iframe {
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow-y: auto;
+        overflow: auto;
     }
     
     h1{
@@ -389,7 +390,7 @@ iframe {
         display: flex;
         width: 100%;
         height: 100%;
-        overflow-y: auto;
+        overflow: auto;
     }
     
     .header-container {
@@ -401,6 +402,7 @@ iframe {
         flex-direction: column;
         justify-content: flex-start;
         width: 95%;
+        overflow: auto;
       }
     
     .header {
@@ -411,7 +413,7 @@ iframe {
         padding: 50px;
         margin-bottom: 0px;
         font-size: 40px;
-        /*margin-right: 30px;*/
+        overflow: auto;
     }
     
     .name {
@@ -426,7 +428,6 @@ iframe {
         justify-content: end;
         font-size: 15px;
         align-items: right;
-        /*margin-right: 50px;*/
         flex-direction: row;
     }
     
@@ -442,7 +443,7 @@ iframe {
         height: 100%;
         flex-direction: column;
         padding: 0px;
-        overflow-y: auto;
+        overflow: auto;
     }
     
     .content {
@@ -455,8 +456,7 @@ iframe {
         border: 5px;
         padding: 0px;
         margin: 0px;
-        flex-grow: 1;
-        overflow-y: auto;
+        overflow: auto;
     }
     
     .nav-container {
@@ -469,7 +469,7 @@ iframe {
         text-align: center;
         justify-content: space-around;
         flex-wrap: wrap;
-        overflow-y: auto;
+        overflow: auto;
     }
     
     .nav-btn {
@@ -488,6 +488,7 @@ iframe {
         border-radius: 10px;
         font-weight: 750;
         flex-shrink: 2;
+        overflow: auto;
     }
     
     .icon-btn {
@@ -551,7 +552,7 @@ iframe {
         height: 82%;
         padding: 50px;
         flex-direction: column;
-        overflow-y: auto;
+        overflow: auto;
     }
     
     .subpage-row{
@@ -562,7 +563,7 @@ iframe {
         flex-wrap: nowrap;
         height: 82%;
         padding: 10px;
-        overflow-y: auto;
+        overflow: auto;
         flex-direction: column;
     }
     
@@ -589,7 +590,7 @@ iframe {
         width: 85%;
         padding: 10px;
         padding-bottom: 50px;
-        overflow-y: auto;
+        overflow: auto;
         margin-top: 10px;
     }
     
