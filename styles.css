@@ -53,6 +53,8 @@ iframe {
     display: flex;
     width: 100%;
     height: 100%;
+    padding: 0%;
+    margin: 0%;
 }
 
 .header-container {
@@ -97,7 +99,7 @@ iframe {
 }
 
 .content-container {
-    display: flex;
+    display:none;
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
@@ -108,14 +110,14 @@ iframe {
 }
 
 .content {
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: start;
     flex-direction: column;
     width: 100%;
     height: 100%;
     overflow: hidden;
-    border: 5px;
+    border: 0px;
     padding: 0px;
     margin: 0px;
 }
@@ -337,7 +339,8 @@ iframe {
 
     html, body {
         height: 100%;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
     }
     
     html {
@@ -345,16 +348,19 @@ iframe {
         width: 100%;
         background-color: black;
         margin: 0px;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;
     }
     
     body {
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         margin: 10px;
         width: 100%;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;
     }
     
     div {
@@ -375,7 +381,8 @@ iframe {
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
     }
     
     h1{
@@ -386,9 +393,16 @@ iframe {
     
     iframe {
         display: flex;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
+        flex-flow: column nowrap;
+        max-width: 100%;
+        max-height: 100%;
+        height: 800px;
+        overflow-x: none;
+        overflow-y: auto;;
+        border: none;
+        padding: 0%;
+        margin: 0px;
+        margin-bottom: -800px;
     }
     
     .header-container {
@@ -439,7 +453,8 @@ iframe {
         height: 100%;
         flex-direction: column;
         padding: 0px;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
     }
     
     .content {
@@ -452,49 +467,54 @@ iframe {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
     }
     
     .nav-container {
         display: flex;
-        flex-direction: row;
-        width: 100%;
-        min-width: auto;
-        min-height: auto;
-        height: 110px;
-        text-align: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        overflow: auto;
+        flex-flow: column nowrap;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        max-height: 100%;
+        justify-content: space-between;
+        align-items: start;
+        overflow-x: none;
+        overflow-y: auto;
+        border: red solid 2px;
     }
     
     .nav-btn {
         display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: left;
         font-size:30px;
-        margin: 5px;
-        padding: 15px;
-        height: 25px;
-        width: 200px;
+        height: calc(30px * 1.25);
+        width: calc(100% - 10px);
+        text-align: center;
         background-color: #185a9d;
         text-decoration: none;
         color: #cfcfcf;
-        margin-bottom: 10px;
-        justify-content: center;
-        align-self: left;
-        border-radius: 10px;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 0px;
+        border-radius: 0px;
         font-weight: 750;
-        flex-shrink: 2;
+        border: green solid 2px;
     }
     
     .icon-btn {
         display: flex;
-        width: 40px;
-        margin: 10px;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: left;
+        margin: 0px;
         margin-top: 0px;
         padding: 2px;
-        height: 30px;
-        justify-content: flex-start;
-        align-items: flex-start;
+        height: 75%;
+        border: yellow solid 2px;
     }
     
     .homepage{
@@ -547,7 +567,8 @@ iframe {
         height: 91%;
         padding: 0px;
         flex-direction: column;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
     }
     
     .subpage-row{
@@ -558,7 +579,8 @@ iframe {
         flex-wrap: nowrap;
         height: 82%;
         padding: 10px;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
         flex-direction: column;
     }
     
@@ -582,25 +604,33 @@ iframe {
         display: flex;
         flex-direction: column;
         justify-content: right;
-        width: 85%;
-        padding: 10px;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 75%;
+        padding: 2%;
+        margin: 2%;
         padding-bottom: 50px;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
         margin-top: 10px;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        inline-size: 80%;
     }
     
     .footer-container {
-        display: flex;
-        flex-direction: column;
+        display: none;
+        flex-direction: column nowrap;
         width: 100%;
-        height: 2%;
+        height: 20px;
         font-size: 30px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
     
     .footer {
-        display: flex;
+        display: none;
         flex-direction: row;
+        height: 1%;
         margin-bottom: 5px;
         margin-left: 5px;
     }
@@ -611,10 +641,13 @@ iframe {
         justify-content: center;
         align-items: center;
         height: auto;
-        width: 150px;
-        border-radius: 20px;
-        margin-top: 10px;
+        width: 50%;
+        max-width: 100%;
+        border-radius: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         margin-left: 25%;
+        margin-right: 25%;
     }
     
     #about-container {
@@ -662,7 +695,8 @@ iframe {
         flex-wrap: nowrap;
         height: 55%;
         padding: 50px;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
         flex-direction: column;
     }
     
@@ -674,7 +708,8 @@ iframe {
         flex-wrap: nowrap;
         height: 55%;
         padding: 50px;
-        overflow: auto;
+        overflow-x: none;
+        overflow-y: auto;;
         flex-direction: row;
     }
   }
