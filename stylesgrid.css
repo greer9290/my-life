@@ -132,9 +132,62 @@ body {
         ". moriahlink ."; 
   }
 
-  @media (min-width: 600px) {
+  .journal-btn {
+    display: flex;
+    text-decoration: none;
+    background-color: #818181;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    color: #111;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  .journal-btn:hover {
+    background-color: #111;
+    color: #818181;
+    height: 190px;
+    width: 190px;
+    
+  }
+
+  h1 {
+    padding: 30px;
+  }
+
+
+  .journal-cnt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 30px;
+  }
+
+  @media (min-width: 650px) {
     #moriah-pic {
         max-width: 450px;
         max-height: 450px;
     }
+
+    .journal-cnt {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    #moriah-pic {
+      max-width: 600px;
+      max-height: 600px;
+  }
+
+  .journal-cnt {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 45px;
+  }
   }
