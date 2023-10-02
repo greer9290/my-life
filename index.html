@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./phone.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="./stylesgrid.css" />
 </head>
+
 <body>
-<div class='header-container'>
-  <div class='header'>
-    <div class='name'>Ben Greer</div>
-      <div class='links'>
-        <div class='signup'>Subscribe</div>      <!-- This is nested now -->
-        <!--  <div class='login'>Login</div>      <!-- This one too! -->
-      </div>
+  <header class='header-container'>
+    <div class='name'>Grinbeer</div>
+    <div class='links'>
+      <div class='signup'>Subscribe</div>
+      <div class='login'>Login</div>
     </div>
-</div>
-<div class="nav-pad"><img class="nav-img filter-white" src="./media/images/icons/chevrons-left.svg"></div>
-  <nav class="nav-container">   
-      <a class="nav-btn" target="current" href="./pages/about/about.html"><img class="icon-btn" src="media/images/icons/aperture.svg">About</a>
-      <a class="nav-btn" target="current" href="./pages/journal/journal.html"><img class="icon-btn" src="media/images/icons/align-justify.svg">Journal</a>
-      <a class="nav-btn" href="https://www.facebook.com/beng9290/" target="_blank"><img class="icon-btn" src="media/images/icons/facebook.svg">Facebook</a>
-      <a class="nav-btn" href="https://www.linkedin.com/in/bg-laser/" target="_blank"><img class="icon-btn" src="media/images/icons/linkedin.svg">LinkedIn</a>
-      <a class="nav-btn" href="https://laserben.substack.com/" target="_blank"><img class="icon-btn" src="media/images/icons/book-open.svg">Substack</a>
-      <a class="nav-btn" href="https://github.com/greer9290" target="_blank"><img class="icon-btn" src="media/images/icons/github.svg">Github</a>
-      <a class="nav-btn" href="https://thegreergal.wordpress.com/"><img class="icon-btn" src="media/images/icons/coffee.svg">My Wife</a>
+  </header>
+  <span class="nav-img" onclick="openNav()"><img class="filter-white" src="./media/images/icons/chevrons-left.svg"></span>
+  <nav id="barSidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="nav-btn" target="_blank" href="./pages/about/about.html"><img class="icon-btn"
+        src="./media/images/icons/aperture.svg">About</a>
+    <a class="nav-btn" target="_self" href="./pages/journal/journal.html"><img class="icon-btn"
+        src="./media/images/icons/align-justify.svg">Journal</a>
+    <a class="nav-btn" target="_blank" href="https://www.facebook.com/beng9290/" target="_blank"><img class="icon-btn"
+        src="./media/images/icons/facebook.svg">Facebook</a>
+    <a class="nav-btn" target="_blank" href="https://www.linkedin.com/in/bg-laser/" target="_blank"><img class="icon-btn"
+        src="./media/images/icons/linkedin.svg">LinkedIn</a>
+    <a class="nav-btn" target="_blank" href="https://laserben.substack.com/" target="_blank"><img class="icon-btn"
+        src="./media/images/icons/book-open.svg">Substack</a>
+    <a class="nav-btn" target="_blank" href="https://github.com/greer9290" target="_blank"><img class="icon-btn"
+        src="./media/images/icons/github.svg">Github</a>
+    <a class="nav-btn" target="_blank" href="https://thegreergal.wordpress.com/"><img class="icon-btn"
+        src="./media/images/icons/coffee.svg">My Wife</a>
   </nav>
-    <!-- <div class="content-container"> -->
-   
-<iframe name="current" src="./pages/about/about.html"></iframe>
-    <!-- /div -->
-<div class="footer-container">
-  <div class="footer">
-    <p>FOOTER CONTENT</p>
+  <!-- <div class="content-container"> -->
+  <div class="main-body">
+    <p>
+      Christian, husband, father of 8, laser engineer, obsessive tinkerer, restless innovator.
+      <br><br>
+      Welcome! I'm Ben Greer, a 30-something reluctant millennial who has spent my 20's adventuring around with my
+      family, working on amazing high-tech laser equipment, road-tripping around the United States and flying around the
+      globe from Israel, to Japan, to Germany. I enjoy meeting new people, feel free to reach out to me any time on any
+      of the platforms linked.
+      <br><br>
+      I say reluctant millennial because I'm a trad-dad, ardent Christian, abortion abolitionist, laser tech
+      entrepreneur and world traveler. I've been married 10 years and have had 7 kids (1 more on the way), with my
+      wonderful wife Moriah. We do not live a common life, but we are definitely great sinners who have a great savior:
+      Jesus Christ.
+    </p>
   </div>
-</div>
+  <div class="footer-container">
+    <div class="footer">
+      <p>FOOTER CONTENT</p>
+    </div>
+  </div>
 </body>
+<script type="text/javascript" src="./scripts.js"></script>
 </html>
