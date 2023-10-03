@@ -10,3 +10,5 @@ Updated to webpage from bare text entry as I start learning html and CSS, hope t
 -Update 10/03/2023
 
 Visit https://greer9290.github.io/my-life/ to view site online. Plan to migrate blog here and start reading list/review.
+
+Will eventually host off of github.
